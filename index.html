@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Tarefas</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h1>Lista de Tarefas:</h1>
+
+<!-- Formulário para adicionar tarefas -->
+<form id="task-form">
+    <input type="text" id="new-task" placeholder="Adicione uma nova tarefa">
+    <select id="task-category">
+        <option value="casa">Arrumar a Casa</option>
+        <option value="mercado">Ir ao Mercado</option>
+        <option value="criancas">Cuidar de Crianças</option>
+    </select>
+    <button type="submit">Adicionar Tarefa</button>
+</form>
+
+<!-- Lista de tarefas -->
+<ul id="task-list" class="task-list">
+    <!-- Tarefas serão adicionadas aqui -->
+</ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
